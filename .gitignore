@@ -3,3 +3,6 @@ explore-brasil-ftp.zip
 
 # Arquivos temporários de conferência local.
 .verificacao/
+
+# Arquivos de trabalho local.
+/materiais-locais/
