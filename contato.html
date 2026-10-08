@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Brasil: destinos, roteiros e dicas para planejar sua próxima viagem.">
+    <title>Contato | Explore Brasil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+    <header>
+        <div class="container topo">
+            <a class="marca" href="index.html">Explore <span>Brasil</span></a>
+            <nav aria-label="Menu principal">
+                <a href="index.html">Início</a>
+                <a href="destinos.html">Destinos</a>
+                <a href="roteiros.html">Roteiros</a>
+                <a href="dicas.html">Dicas</a>
+                <a href="contato.html" aria-current="page">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main id="conteudo" class="container">
+        <section class="introducao">
+            <p class="etiqueta">Compartilhe sua ideia</p>
+            <h1>Contato</h1>
+            <p>Qual lugar você gostaria de conhecer? Preencha o formulário de demonstração.</p>
+        </section>
+        <section class="contato-layout" aria-label="Formulário e informações de contato">
+            <form action="contato.html#aviso" method="get">
+                <h2>Seu próximo destino</h2>
+                <label for="nome">Nome *</label>
+                <input type="text" id="nome" name="nome" autocomplete="name" maxlength="100" required>
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" autocomplete="email" maxlength="150" required>
+                <label for="destino">Destino de interesse *</label>
+                <select id="destino" name="destino" required>
+                    <option value="">Selecione um destino</option>
+                    <option>Florianópolis</option><option>Porto de Galinhas</option><option>Gramado</option><option>Campos do Jordão</option><option>Bonito</option><option>Chapada dos Veadeiros</option><option>Ainda não decidi</option>
+                </select>
+                <label for="mensagem">Mensagem *</label>
+                <textarea id="mensagem" name="mensagem" rows="5" maxlength="1500" required></textarea>
+                <p class="nota">* Campos obrigatórios. Use dados fictícios para testar.</p>
+                <button class="botao" type="submit">Testar formulário</button>
+            </form>
+            <article class="painel" id="aviso">
+                <h2>Sobre este formulário</h2>
+                <p>Este site é um projeto acadêmico feito com HTML e CSS.</p>
+                <p>O botão verifica os campos obrigatórios e o formato do e-mail usando o próprio navegador. Se estiverem válidos, a página recarrega e abre este aviso.</p>
+                <p><strong>Nenhuma mensagem é enviada ou armazenada pelo projeto.</strong> Os dados de teste aparecem na URL da página.</p>
+                <h3>Precisa de inspiração?</h3>
+                <p><a href="roteiros.html">Confira os roteiros sugeridos</a> para começar a planejar.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p><strong>Explore Brasil</strong> — descubra seu próximo destino.</p>
+            <p>Projeto acadêmico de HTML e CSS. Não realizamos vendas ou reservas.</p>
+            <a href="https://www.visitbrasil.com/">Conheça o portal Visit Brasil</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+EXPLORE BRASIL — Projeto acadêmico de HTML e CSS
+
+Abra index.html no navegador para iniciar.
+Não é necessário instalar programas ou executar um servidor.
+A antiga página Viagens.html agora se chama index.html.
+Todos os links internos de retorno ao início foram atualizados.
+
+ARQUIVOS DO SITE
+index.html: início.
+destinos.html: seis sugestões de destinos.
+roteiros.html: roteiros de três e cinco dias.
+dicas.html: dicas para organizar a viagem.
+contato.html: formulário de demonstração.
+style.css: estilos compartilhados e adaptação para celular.
+imagens/: três fotos locais usadas no site.
+
+DOCUMENTAÇÃO E ENTREGA
+README.md: apresentação do projeto e próximos passos para a entrega.
+documentacao/mapa-do-site.png: mapa pronto para inserir no relatório.
+documentacao/gerar-mapa.ps1: código usado para gerar o mapa no Windows.
+documentacao/modelo-relatorio.md: texto-base para completar no Word.
+explore-brasil-ftp.zip: pacote com os arquivos que serão enviados por FTP.
+
+MAPA DO SITE
+Início (index.html)
+|-- Destinos (destinos.html)
+|-- Roteiros (roteiros.html)
+|-- Dicas (dicas.html)
+|-- Contato (contato.html)
+O menu de cada página permite acessar as outras quatro páginas.
+Dentro do conteúdo existem os seguintes links:
+- Início -> Destinos e Roteiros.
+- Destinos -> Roteiros, nas categorias correspondentes.
+- Roteiros -> Destinos, nas categorias correspondentes, e Dicas.
+- Dicas -> Destinos.
+- Contato -> Roteiros.
+O rodapé de todas as páginas também leva ao portal externo Visit Brasil.
+
+FORMULÁRIO E IMAGENS
+O formulário usa a validação nativa do HTML. Não envia mensagens.
+Use dados fictícios: ao testar, os campos aparecem na URL.
+As fotos são ilustrativas das categorias e não dos destinos específicos.
+
+Fotos obtidas do Unsplash:
+Praia: https://images.unsplash.com/photo-1519046904884-53103b34b206
+Montanha: https://images.unsplash.com/photo-1464822759023-fed622ff2c3b
+Natureza: https://images.unsplash.com/photo-1441974231531-c6227db76b6e
+
+PUBLICAÇÃO VIA FTP
+Extraia explore-brasil-ftp.zip e envie seu conteúdo para a pasta indicada
+pelo professor: cinco páginas HTML, style.css e a pasta imagens.
+Mantenha os nomes, as letras minúsculas e a organização dos arquivos.
+index.html e style.css devem ficar juntos, com imagens/ ao lado.
+Não envie somente o ZIP: o servidor precisa dos arquivos extraídos.
+Use o host, protocolo, porta, usuário, senha e pasta fornecidos pelo professor.
+Depois, abra a URL HTTP ou HTTPS informada e teste páginas, imagens e links.
+
+PRÓXIMOS PASSOS
+1. Abra index.html e confira o site no computador e no celular.
+2. Envie o projeto ao repositório GitHub já criado:
+   https://github.com/GabrielRFreitas/Trabalho-site
+3. Publique via FTP com os dados do professor e guarde a URL do site.
+4. Complete o modelo de relatório com nomes, matrículas, divisão real de
+   tarefas, dificuldades reais e os dois links. Insira o mapa em PNG.
+5. Salve o relatório em DOCX ou PDF e revise os campos a preencher.
+
+Consulte README.md para o passo a passo.
